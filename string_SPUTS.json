@@ -1,0 +1,42 @@
+[
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "4000000f157a082d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub93",
+        "port": 5002,
+        "control_port": 6000,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "d6000030c1a5e82d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub93",
+        "port": 5004,
+        "control_port": 6000,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "2b00002c7206df2d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub93",
+        "port": 5007,
+        "control_port": 6000,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 96,
+        "board_type_name": "pDOM",
+        "icm_id": "98000032357b5f2d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub93",
+        "port": 5015,
+        "control_port": 6008,
+        "wp_addr": 7
+    }
+]

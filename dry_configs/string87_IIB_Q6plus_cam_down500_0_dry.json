@@ -1,0 +1,32 @@
+[
+    {
+        "String": 87,
+        "Device": "mDOM",
+        "RunType": "IIB",
+        "Quad": 14,
+        "Wire Pair": 0,
+        "Address": 2,
+        "Index": 74,
+        "Depth": 2322,
+        "Camera": "cam_down",
+        "LED": "led_down",
+        "ExposureTime": 500,
+        "DOMNet Data Port": 5208,
+        "host": "fieldhub87"
+    },
+    {
+        "String": 87,
+        "Device": "mDOM",
+        "RunType": "IIB",
+        "Quad": 20,
+        "Wire Pair": 1,
+        "Address": 2,
+        "Index": 105,
+        "Depth": 2415,
+        "Camera": "cam_down",
+        "LED": "led_down",
+        "ExposureTime": 500,
+        "DOMNet Data Port": 5312,
+        "host": "fieldhub87"
+    }
+]

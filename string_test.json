@@ -1,0 +1,90 @@
+[
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "9900002c7307982d",
+        "mb_id": "5d00000068a8fe42",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5010,
+        "control_port": 6008,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 64,
+        "board_type_name": "LOM16",
+        "icm_id": "23000030c30b052d",
+        "mb_id": "5f0000006711f142",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5012,
+        "control_port": 6008,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "7e000030c32b2b2d",
+        "mb_id": "9c00000303100f23",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5015,
+        "control_port": 6008,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 122,
+        "board_type_name": "PencilBeam",
+        "icm_id": "e8000030c359842d",
+        "mb_id": "430000006719cb42",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5018,
+        "control_port": 6016,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 16,
+        "board_type_name": "Acoustic",
+        "icm_id": "4b000030c3079e2d",
+        "mb_id": "ec000000674a0e42",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5020,
+        "control_port": 6016,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 121,
+        "board_type_name": "POCAM",
+        "icm_id": "2a000030c307602d",
+        "mb_id": "30000000674b1342",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5023,
+        "control_port": 6016,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 96,
+        "board_type_name": "pDOM",
+        "icm_id": "4700003009c2892d",
+        "mb_id": "280000007f92aa42",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5026,
+        "control_port": 6024,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 80,
+        "board_type_name": "WOM",
+        "icm_id": "a3000030c3437f2d",
+        "mb_id": "22000000672b8542",
+        "sw_version": "0x49",
+        "hostname": "localhost",
+        "port": 5028,
+        "control_port": 6024,
+        "wp_addr": 4
+    }
+]
