@@ -2,10 +2,10 @@
     {
         "String": 87,
         "Device": "mDOM",
-        "RunType": "runIa",
+        "RunType": "runIA",
         "Quad": 20,
         "Wire Pair": 1,
-        "Address": 2,
+        "Address": 7,
         "Index": 105,
         "Depth": 2415,
         "Camera": "0",

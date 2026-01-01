@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-config_path', '--path', dest='path',default="/Users/epaudel/research_ua/icecube/pole_calibration/hole-freeze-operations/UpgradeCamera/OperationsConfigs/String87/ExposureTimeScans/Quad6plus", help='path to run config')
 parser.add_argument('-quick_stat_path', '--quickpath', dest='quickpath',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/quickStat.log", help='path to quick status log')
 parser.add_argument('-string_map', '--stringmap', dest='stringmap',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/string_87_quad14_20.json", help='path to string map')
-parser.add_argument('-dry_quads', '--dquads', dest='dry_quads',nargs='+',type=int,default=[14,20], help='list of dry quads')
+# parser.add_argument('-dry_quads', '--dquads', dest='dry_quads',nargs='+',type=int,default=[14,20], help='list of dry quads')
 parser.add_argument('-output_path', '--out', dest='out',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/dry_configs/", help='path to string map')
 
 args = parser.parse_args()
@@ -24,8 +24,7 @@ string_map = args.stringmap
 
 # print(f"config_lists {len(config_lists)} {config_lists}")
 
-dry_quads = args.dry_quads
-print(f"dry quads {dry_quads}")
+# dry_quads = args.dry_quads
 
 class device():
     # def __init__(self, string, quad, wp, hostname, port, control_port, wp_address):
@@ -54,6 +53,27 @@ def card_wp_to_quad_wp(cwa):
     quad_wp = wp%2
     quad_wp_address = wp_address
     return quad, quad_wp, quad_wp_address
+
+def dry_quads_from_quickstats(file_path):
+    dry_quads = []
+    with open(file_path, 'r') as f:
+        f.readline()  # skip header line
+        data = f.readlines()
+        for line in data:
+            values = line.split(" ")
+            values = [istr.strip() for istr in values if istr!="" and istr!="\n"]
+            if len(values) >= 8:
+                cwa = values[0]
+                quad1, wp, wp_address = card_wp_to_quad_wp(cwa)
+                quad = int(re.sub('[a-zA-Z]', '',values[1]))
+                if quad1 != quad:
+                    print(f"conflicting quad calculations {quad1} and {quad}")               
+                # hostname = values[2]
+                dry_quads.append(quad)
+    return dry_quads
+
+dry_quads = list(set(dry_quads_from_quickstats(quick_stat_log)))
+print(f"dry quads {dry_quads}")
 
 
 def parse_quick_stat(file_path,hostname):
@@ -101,9 +121,9 @@ for ifile in config_lists[:]:
                 imap["DOMNet Data Port"] = port - imap["Address"]
                 imap['host'] = host
                 data_dry.append(imap)
-        print(data_dry)
+        # print(data_dry)
         outfile = args.out + ifile.split("/")[-1].replace(".","_dry.")
-        print(f"{ifile.split("/")[-1].replace(".","_dry.")}")
+        # print(f"{ifile.split("/")[-1].replace(".","_dry.")}")
         print(f"outfile {outfile}")
         with open(outfile, 'w') as f:
             json.dump(data_dry, f,indent=4)
