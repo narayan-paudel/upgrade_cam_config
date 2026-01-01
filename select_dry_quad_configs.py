@@ -104,6 +104,7 @@ for ifile in config_lists[:]:
         print(data_dry)
         outfile = args.out + ifile.split("/")[-1].replace(".","_dry.")
         print(f"{ifile.split("/")[-1].replace(".","_dry.")}")
+        print(f"outfile {outfile}")
         with open(outfile, 'w') as f:
             json.dump(data_dry, f,indent=4)
 
