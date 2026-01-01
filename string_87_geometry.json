@@ -1,0 +1,1167 @@
+[
+    {
+        "id": 87,
+        "devices": [
+            {
+                "icm_id": "58000030c321cd2d",
+                "position": 116,
+                "type": "mdom",
+                "name": "How_deep_is_your_love",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -513.2600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "2500000f156d162d",
+                "position": 115,
+                "type": "degg",
+                "name": "Dusky_Rockcod",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -510.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "34000011ac15282d",
+                "position": 114,
+                "type": "mdom",
+                "name": "Thats_the_way",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -507.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "af000030c341272d",
+                "position": 113,
+                "type": "wom",
+                "name": "SchlickWOM",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -504.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "f6000030c3403d2d",
+                "position": 112,
+                "type": "wom",
+                "name": "WOMderland",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -501.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "f7000030c307e12d",
+                "position": 111,
+                "type": "wom",
+                "name": "Willy_WOMka",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -498.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "8c000030c346d72d",
+                "position": 110,
+                "type": "mdom",
+                "name": "Take_a_bite",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -484.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "2200000f18b2412d",
+                "position": 109,
+                "type": "degg",
+                "name": "Goniurosaurus_splendens",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -481.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "0400000f189a9e2d",
+                "position": 108,
+                "type": "degg",
+                "name": "Rhacophorus_owstoni",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -478.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "ec00002c71e33d2d",
+                "position": 107,
+                "type": "mdom",
+                "name": "Lilliputian_chop",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -475.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "99000030c32b442d",
+                "position": 106,
+                "type": "degg",
+                "name": "Microhyla_okinavensis",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -472.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "18000030c315792d",
+                "position": 105,
+                "type": "mdom",
+                "name": "Marechia",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -469.26000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "2500003235849a2d",
+                "position": 104,
+                "type": "mdom",
+                "name": "In_the_navy",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -466.19000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "4700000f173d512d",
+                "position": 103,
+                "type": "degg",
+                "name": "Hynobius_amakusaensis",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -463.19000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "b90000323584cc2d",
+                "position": 102,
+                "type": "mdom",
+                "name": "Mamma_mia",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -460.19000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "d2000011ac15c22d",
+                "position": 101,
+                "type": "mdom",
+                "name": "Part_time_lover",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -457.19000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "ba000030c3474a2d",
+                "position": 100,
+                "type": "degg",
+                "name": "Limnonectes_namiyei",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -454.19000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "8100002c73074c2d",
+                "position": 99,
+                "type": "mdom",
+                "name": "Andromeda",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -451.19000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "53000032357c3c2d",
+                "position": 98,
+                "type": "mdom",
+                "name": "Voulez_vous",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -448.12000000000035,
+                "dead": false
+            },
+            {
+                "icm_id": "1100000ede33b52d",
+                "position": 97,
+                "type": "degg",
+                "name": "Great_Shearwater",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -445.12000000000035,
+                "dead": false
+            },
+            {
+                "icm_id": "1100000ede33b52d",
+                "position": 96,
+                "type": "degg",
+                "name": "Great_Shearwater",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -442.12000000000035,
+                "dead": false
+            },
+            {
+                "icm_id": "86000011abeffd2d",
+                "position": 95,
+                "type": "mdom",
+                "name": "Dance_you_outta_my_head",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -439.12000000000035,
+                "dead": false
+            },
+            {
+                "icm_id": "4300000f1584b82d",
+                "position": 94,
+                "type": "degg",
+                "name": "Parachaenichthys_Georgianus",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -436.12000000000035,
+                "dead": false
+            },
+            {
+                "icm_id": "17000030c2fd242d",
+                "position": 93,
+                "type": "mdom",
+                "name": "More_than_a_woman",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -433.12000000000035,
+                "dead": false
+            },
+            {
+                "icm_id": "d3000030c2fced2d",
+                "position": 92,
+                "type": "mdom",
+                "name": "Now_That_We_Dont_Talk",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -430.0200000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "7a00000ede14502d",
+                "position": 91,
+                "type": "degg",
+                "name": "Southern_Giant_Petrel",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -427.0200000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "d0000030c2fd622d",
+                "position": 90,
+                "type": "pocam",
+                "name": "Kitefin_Shark",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -424.0200000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "07000030c1fa1b2d",
+                "position": 89,
+                "type": "mdom",
+                "name": "Champaign_Problems",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -421.0200000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "0400000f1711322d",
+                "position": 88,
+                "type": "degg",
+                "name": "Oriental_White_Stork",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -418.0200000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "bf000030c317762d",
+                "position": 87,
+                "type": "pencilbeam",
+                "name": "Fluorite",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -415.0200000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "56000030c321b42d",
+                "position": 86,
+                "type": "mdom",
+                "name": "I_am_what_i_am",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -412.1400000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "4a000030c3591a2d",
+                "position": 85,
+                "type": "mdom",
+                "name": "Never_Grow_Up",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -409.1400000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "4a000030c3591a2d",
+                "position": 84,
+                "type": "mdom",
+                "name": "Never_Grow_Up",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -406.1400000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "6e000030c2fd0e2d",
+                "position": 83,
+                "type": "mdom",
+                "name": "Half_of_My_Heart",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -403.1400000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "42000009b8d96b2d",
+                "position": 82,
+                "type": "degg",
+                "name": "Hynobius_dunni",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -400.1400000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "91000030c340f62d",
+                "position": 81,
+                "type": "mdom",
+                "name": "Superstar",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -397.1400000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "f100000f18a11b2d",
+                "position": 80,
+                "type": "degg",
+                "name": "Rhacophorus_viridis_amamiensis",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -394.0800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "e400000f18aea72d",
+                "position": 79,
+                "type": "degg",
+                "name": "Gaptooth_Lanternfish",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -391.0800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "46000010b1298f2d",
+                "position": 78,
+                "type": "mdom",
+                "name": "All_american_girls",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -388.0800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "12000030c2c6e62d",
+                "position": 77,
+                "type": "mdom",
+                "name": "Macho_man",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -385.0800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "7c00000f171a7e2d",
+                "position": 76,
+                "type": "degg",
+                "name": "Hynobius_nigrescens",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -382.0800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "5400000f15678a2d",
+                "position": 75,
+                "type": "degg",
+                "name": "Broad_Billed_Prion",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -379.0800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "3f00003009dd282d",
+                "position": 74,
+                "type": "mdom",
+                "name": "Dont_Blame_Me",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -376.25000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "7e00000f18aec42d",
+                "position": 73,
+                "type": "degg",
+                "name": "Southern_Fulmar",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -373.25000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "5f000030c30b8c2d",
+                "position": 72,
+                "type": "acoustic",
+                "name": "Kurt",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -370.25000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "ca000032357cc92d",
+                "position": 71,
+                "type": "mdom",
+                "name": "Automatic",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -367.25000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "1200000fd3c2062d",
+                "position": 70,
+                "type": "degg",
+                "name": "Whitsons_Grenadier",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -364.25000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "2a000030c34ac32d",
+                "position": 69,
+                "type": "mdom",
+                "name": "A_night_to_remember",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -361.25000000000034,
+                "dead": false
+            },
+            {
+                "icm_id": "a800003009c2aa2d",
+                "position": 68,
+                "type": "mdom",
+                "name": "Fire",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -358.32000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "c700000f170c6e2d",
+                "position": 67,
+                "type": "degg",
+                "name": "Myers_Icefish",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -355.32000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "8900003009b6f62d",
+                "position": 66,
+                "type": "mdom",
+                "name": "Epiphany",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -352.32000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "7900000fd3c3be2d",
+                "position": 65,
+                "type": "mdom",
+                "name": "I_Wish_You_Would",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -349.32000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "5e00000f173e2b2d",
+                "position": 64,
+                "type": "degg",
+                "name": "Hynobius_shinichisatoi",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -346.32000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "44000011abf0162d",
+                "position": 63,
+                "type": "mdom",
+                "name": "Runaway",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -343.32000000000033,
+                "dead": false
+            },
+            {
+                "icm_id": "f300003009b64a2d",
+                "position": 62,
+                "type": "mdom",
+                "name": "Lay_all_your_love_on_me",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -340.4000000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "ce000030c3081e2d",
+                "position": 61,
+                "type": "swedencamera",
+                "name": "SweCam_06",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -337.4000000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "9900000fd3bb3d2d",
+                "position": 60,
+                "type": "degg",
+                "name": "Pelodiscus_sinensis",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -334.4000000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "4c000030c347382d",
+                "position": 59,
+                "type": "mdom",
+                "name": "Babe",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -331.4000000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "e500000ede349b2d",
+                "position": 58,
+                "type": "degg",
+                "name": "Antarctic_Tern",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -328.4000000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "de000030c30bad2d",
+                "position": 57,
+                "type": "mdom",
+                "name": "Foolish_One",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -325.4000000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "06000030c3462c2d",
+                "position": 56,
+                "type": "mdom",
+                "name": "Forever_and_Always",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -322.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "ac00000f18b7e12d",
+                "position": 55,
+                "type": "degg",
+                "name": "Smalleye_Moray_Cod",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -319.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "8d00003009c2202d",
+                "position": 54,
+                "type": "mdom",
+                "name": "Let_the_music_play",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -316.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "f300003009c2ba2d",
+                "position": 53,
+                "type": "mdom",
+                "name": "Dance_dance_dance",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -313.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "a800000f17db152d",
+                "position": 52,
+                "type": "degg",
+                "name": "Snowy_Sheatbill",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -310.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "2b00000fd3c3672d",
+                "position": 51,
+                "type": "mdom",
+                "name": "Rivers_of_babylon",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -307.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "35000030c30ba82d",
+                "position": 50,
+                "type": "mdom",
+                "name": "Youre_On_Your_Own_Kid",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -304.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "e000000f17ab9f2d",
+                "position": 49,
+                "type": "degg",
+                "name": "Antarctic_Jonasfish",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -301.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "1c00000f170a8c2d",
+                "position": 48,
+                "type": "degg",
+                "name": "Antarctic_Toothfish",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -298.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "d2000030c2c7092d",
+                "position": 47,
+                "type": "mdom",
+                "name": "Lady_hear_me_tonight",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -295.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "83000030c359252d",
+                "position": 46,
+                "type": "degg",
+                "name": "Dermochelys_coriacea",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -292.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "5000003009b6512d",
+                "position": 45,
+                "type": "mdom",
+                "name": "Cowboy_Like_Me",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -289.4300000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "3000002c7303b82d",
+                "position": 44,
+                "type": "mdom",
+                "name": "Im_going_to_go",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -286.4800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "27000030c32b282d",
+                "position": 43,
+                "type": "degg",
+                "name": "Xenopus_laevis",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -283.4800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "2e00003009c23b2d",
+                "position": 42,
+                "type": "mdom",
+                "name": "Speak_Now",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -280.4800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "6100002c7206d22d",
+                "position": 41,
+                "type": "mdom",
+                "name": "Ride_on_time",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -277.4800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "0300000f170f952d",
+                "position": 40,
+                "type": "degg",
+                "name": "Black_Rockcod",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -274.4800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "1d000030c1f2142d",
+                "position": 39,
+                "type": "mdom",
+                "name": "Ill_be_there",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -271.4800000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "f1000030c1ebf92d",
+                "position": 38,
+                "type": "mdom",
+                "name": "I_Can_Do_It_With_A_Broken_Heart",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -268.6100000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "5600000f18a20d2d",
+                "position": 37,
+                "type": "degg",
+                "name": "Rhinella_marina",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -265.6100000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "0e00000f173a852d",
+                "position": 36,
+                "type": "degg",
+                "name": "Nichols_Lanternfish",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -262.6100000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "f6000030c1ee342d",
+                "position": 35,
+                "type": "mdom",
+                "name": "Evermore",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -259.6100000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "75000009b8d96a2d",
+                "position": 34,
+                "type": "degg",
+                "name": "Paraliparis_Valentienes",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -256.6100000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "13000030c359192d",
+                "position": 33,
+                "type": "mdom",
+                "name": "Holiday",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -253.6100000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "d7000030c358d02d",
+                "position": 32,
+                "type": "mdom",
+                "name": "Bizarre_love_triangle",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -250.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "a700000fd3c4e62d",
+                "position": 31,
+                "type": "degg",
+                "name": "Magellanic_Penguin",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -247.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "8200002c72069b2d",
+                "position": 30,
+                "type": "mdom",
+                "name": "Supernature",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -244.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "8600002c731ac02d",
+                "position": 29,
+                "type": "mdom",
+                "name": "Stranamore",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -241.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "7700000f17b3522d",
+                "position": 28,
+                "type": "degg",
+                "name": "Octopus_sinensis",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -238.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "dd00002c7306f52d",
+                "position": 27,
+                "type": "mdom",
+                "name": "Muscle_memory",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -235.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "3700002c73076c2d",
+                "position": 26,
+                "type": "mdom",
+                "name": "Vous_pensez_ce_que_vous_en_pensez",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -232.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "9c000030c32afe2d",
+                "position": 25,
+                "type": "degg",
+                "name": "Bufo_japonicus_formosus",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -229.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "fc00000f189b8c2d",
+                "position": 24,
+                "type": "degg",
+                "name": "Fejervarya_kawamurai",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -226.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "8900002c71e3e52d",
+                "position": 23,
+                "type": "mdom",
+                "name": "Solid",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -223.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "4b00000fd3c2052d",
+                "position": 22,
+                "type": "degg",
+                "name": "Eurasian_Spoonbill",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -220.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "4f00002c7271592d",
+                "position": 21,
+                "type": "mdom",
+                "name": "Naked",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -217.6600000000003,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 20,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -104.66000000000031,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 19,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -79.66000000000031,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 18,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -54.66000000000031,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 17,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": -29.66000000000031,
+                "dead": false
+            },
+            {
+                "icm_id": "e600000fd3df5b2d",
+                "position": 16,
+                "type": "mdom",
+                "name": "Getaway",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 95.33999999999969,
+                "dead": false
+            },
+            {
+                "icm_id": "e600000fd3df5b2d",
+                "position": 15,
+                "type": "mdom",
+                "name": "Getaway",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 120.33999999999969,
+                "dead": false
+            },
+            {
+                "icm_id": "3700003009dd642d",
+                "position": 14,
+                "type": "mdom",
+                "name": "Love_concert",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 145.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "3700003009dd642d",
+                "position": 13,
+                "type": "mdom",
+                "name": "Love_concert",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 170.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "af00003009c3032d",
+                "position": 12,
+                "type": "mdom",
+                "name": "Does_your_mother_know",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 245.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "cf00000f18b6152d",
+                "position": 11,
+                "type": "degg",
+                "name": "Chinobathyscus_Dewitti",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 270.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "b900002c7303d52d",
+                "position": 10,
+                "type": "mdom",
+                "name": "Summer_time",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 295.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "0400000fd3c2ab2d",
+                "position": 9,
+                "type": "degg",
+                "name": "Emerald_Rockcod",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 320.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "0a000030c2fd532d",
+                "position": 8,
+                "type": "pocam",
+                "name": "Melon_Jellyfish",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 345.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "9f00000f18b8412d",
+                "position": 7,
+                "type": "degg",
+                "name": "Phasianus",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 370.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "24000030c228cd2d",
+                "position": 6,
+                "type": "acoustic",
+                "name": "Roy",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 395.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "db000030c321ff2d",
+                "position": 5,
+                "type": "mdom",
+                "name": "If_i_cant_have_you",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 420.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 4,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 495.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 3,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 520.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 2,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 545.3399999999997,
+                "dead": false
+            },
+            {
+                "icm_id": "EMPTY_DEVICE",
+                "position": 1,
+                "type": "EMPTY_DEVICE",
+                "name": "EMPTY_DEVICE",
+                "x": 16.45615979,
+                "y": -49.11701614,
+                "z": 570.3399999999997,
+                "dead": false
+            }
+        ]
+    }
+]

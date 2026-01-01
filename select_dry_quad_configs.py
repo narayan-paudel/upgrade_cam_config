@@ -8,6 +8,7 @@ import re
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-config_path', '--path', dest='path',default="/Users/epaudel/research_ua/icecube/pole_calibration/hole-freeze-operations/UpgradeCamera/OperationsConfigs/String87/ExposureTimeScans/Quad6plus", help='path to run config')
+parser.add_argument('-quick_stat_path', '--quickpath', dest='quickpath',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/quickStat.log", help='path to quick status log')
 parser.add_argument('-dry_quads', '--dquads', dest='dry_quads',nargs='+',default=[14,20], help='list of dry quads')
 parser.add_argument('-output_path', '--out', dest='out',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/dry_configs/", help='path to string map')
 
@@ -16,7 +17,8 @@ args = parser.parse_args()
 # print(f"reading configs from path {args.path}")
 
 config_lists = glob.glob(args.path+"/*.json")
-quick_stat_log = "/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/quickStat.log"
+quick_stat_log = args.quickpath
+string_map = "/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/string_87_quad14_20.json"
 
 
 # print(f"config_lists {len(config_lists)} {config_lists}")
@@ -103,3 +105,49 @@ for ifile in config_lists[:]:
         print(f"{ifile.split("/")[-1].replace(".","_dry.")}")
         with open(outfile, 'w') as f:
             json.dump(data_dry, f,indent=4)
+
+
+def parse_string_map(string_map):
+    pass
+
+def get_host_port_from_stringmap_icmid(string_map, icmid):
+    with open(string_map, 'r') as f:
+        data = json.load(f)
+        for imap in data:
+            if imap["icm_id"] == icmid:
+                host = imap["hostname"]
+                port = imap["port"]
+                control_port = imap["control_port"]
+                wp_address = imap["wp_addr"]
+    return host,port,control_port,wp_address
+
+def get_host_port_from_quickstat_icmid(file_path,icmid):
+    with open(file_path, 'r') as f:
+        f.readline()  # skip header line
+        data = f.readlines()
+        for line in data:
+            values = line.split(" ")
+            values = [istr.strip() for istr in values if istr!="" and istr!="\n"]
+            if values[4]==icmid:
+                cwa = values[0]
+                quad1, wp, wp_address = card_wp_to_quad_wp(cwa)
+                quad = int(re.sub('[a-zA-Z]', '',values[1]))
+                if quad1 != quad:
+                    print(f"conflicting quad calculations {quad1} and {quad}")               
+                # hostname = values[2]
+                port = int(values[2])
+                control_port = int(values[3])
+    return host,port,control_port,wp_address
+
+
+
+def compare_quick_status_string_map(quick_stat_log,string_map):
+    icmid_list = []
+    with open(string_map, 'r') as f:
+        data = json.load(f)
+        for imap in data:
+            icmid_list.append(imap["icm_id"])
+    for icmid in icmid_list:
+        print(f"comparing quickstatus and string map {get_host_port_from_quickstat_icmid(quick_stat_log,icmid)} {get_host_port_from_stringmap_icmid(string_map, icmid)}")
+
+compare_quick_status_string_map(quick_stat_log,string_map)

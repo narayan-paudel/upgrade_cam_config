@@ -1,0 +1,162 @@
+[
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "af00003009c3032d",
+        "sw_version": "0x47",
+        "hostname": "fieldhub87",
+        "port": 5036,
+        "control_port": 6032,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "cf00000f18b6152d",
+        "sw_version": "0x47",
+        "hostname": "fieldhub87",
+        "port": 5039,
+        "control_port": 6032,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "b900002c7303d52d",
+        "sw_version": "0x47",
+        "hostname": "fieldhub87",
+        "port": 5044,
+        "control_port": 6040,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "0400000fd3c2ab2d",
+        "sw_version": "0x47",
+        "hostname": "fieldhub87",
+        "port": 5047,
+        "control_port": 6040,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "3f00003009dd282d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5210,
+        "control_port": 6208,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "7e00000f18aec42d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5212,
+        "control_port": 6208,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 16,
+        "board_type_name": "Acoustic",
+        "icm_id": "5f000030c30b8c2d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5215,
+        "control_port": 6208,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "b9000030c30e1b2d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5218,
+        "control_port": 6216,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "1200000fd3c2062d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5220,
+        "control_port": 6216,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "2a000030c34ac32d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5223,
+        "control_port": 6216,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "8c000030c346d72d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5306,
+        "control_port": 6304,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "2200000f18b2412d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5308,
+        "control_port": 6304,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "0400000f189a9e2d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5311,
+        "control_port": 6304,
+        "wp_addr": 7
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "ec00002c71e33d2d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5314,
+        "control_port": 6312,
+        "wp_addr": 2
+    },
+    {
+        "board_type": 113,
+        "board_type_name": "DEgg",
+        "icm_id": "99000030c32b442d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5316,
+        "control_port": 6312,
+        "wp_addr": 4
+    },
+    {
+        "board_type": 98,
+        "board_type_name": "mDOM",
+        "icm_id": "18000030c315792d",
+        "sw_version": "0x49",
+        "hostname": "fieldhub87",
+        "port": 5319,
+        "control_port": 6312,
+        "wp_addr": 7
+    }
+]
