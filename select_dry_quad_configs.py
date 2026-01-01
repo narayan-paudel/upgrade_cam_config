@@ -5,6 +5,7 @@ import json
 import glob
 
 import re
+import os
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-config_path', '--path', dest='path',default="/Users/epaudel/research_ua/icecube/pole_calibration/hole-freeze-operations/UpgradeCamera/OperationsConfigs/String87/ExposureTimeScans/Quad6plus", help='path to run config')
@@ -20,6 +21,8 @@ args = parser.parse_args()
 config_lists = glob.glob(args.path+"/*.json")
 quick_stat_log = args.quickpath
 string_map = args.stringmap
+
+os.makedirs(args.out, exist_ok=True)
 
 
 # print(f"config_lists {len(config_lists)} {config_lists}")
