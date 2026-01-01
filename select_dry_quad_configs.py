@@ -9,7 +9,8 @@ import re
 parser = argparse.ArgumentParser()
 parser.add_argument('-config_path', '--path', dest='path',default="/Users/epaudel/research_ua/icecube/pole_calibration/hole-freeze-operations/UpgradeCamera/OperationsConfigs/String87/ExposureTimeScans/Quad6plus", help='path to run config')
 parser.add_argument('-quick_stat_path', '--quickpath', dest='quickpath',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/quickStat.log", help='path to quick status log')
-parser.add_argument('-dry_quads', '--dquads', dest='dry_quads',nargs='+',default=[14,20], help='list of dry quads')
+parser.add_argument('-string_map', '--stringmap', dest='stringmap',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/string_87_quad14_20.json", help='path to string map')
+parser.add_argument('-dry_quads', '--dquads', dest='dry_quads',nargs='+',type=int,default=[14,20], help='list of dry quads')
 parser.add_argument('-output_path', '--out', dest='out',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/dry_configs/", help='path to string map')
 
 args = parser.parse_args()
@@ -18,7 +19,7 @@ args = parser.parse_args()
 
 config_lists = glob.glob(args.path+"/*.json")
 quick_stat_log = args.quickpath
-string_map = "/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/string_87_quad14_20.json"
+string_map = args.stringmap
 
 
 # print(f"config_lists {len(config_lists)} {config_lists}")
