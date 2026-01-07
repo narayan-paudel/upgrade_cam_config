@@ -10,7 +10,8 @@ import os
 parser = argparse.ArgumentParser()
 parser.add_argument('-config_path', '--path', dest='path',default="/Users/epaudel/research_ua/icecube/pole_calibration/hole-freeze-operations/UpgradeCamera/OperationsConfigs/String87/ExposureTimeScans/Quad6plus", help='path to run config')
 parser.add_argument('-quick_stat_path', '--quickpath', dest='quickpath',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/quickStat.log", help='path to quick status log')
-parser.add_argument('-string_map', '--stringmap', dest='stringmap',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/string_87_quad14_20.json", help='path to string map')
+parser.add_argument('-host', '--host', dest='host',default="localhost", help='localhost')
+# parser.add_argument('-string_map', '--stringmap', dest='stringmap',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/string_87_quad14_20.json", help='path to string map')
 # parser.add_argument('-dry_quads', '--dquads', dest='dry_quads',nargs='+',type=int,default=[14,20], help='list of dry quads')
 parser.add_argument('-output_path', '--out', dest='out',default="/Users/epaudel/research_ua/icecube/pole_calibration/upgrade_cam_config/dry_configs/", help='path to string map')
 
@@ -20,7 +21,8 @@ args = parser.parse_args()
 
 config_lists = glob.glob(args.path+"/*.json")
 quick_stat_log = args.quickpath
-string_map = args.stringmap
+hostname = args.host
+# string_map = args.stringmap
 
 os.makedirs(args.out, exist_ok=True)
 
@@ -105,7 +107,7 @@ def parse_quick_stat(file_path,hostname):
             # print(f"line {values}")
     return device_list
 
-device_list = parse_quick_stat(quick_stat_log,hostname="fieldhub87")
+device_list = parse_quick_stat(quick_stat_log,hostname=hostname)
 
 
 def get_port_host(device_list,quad,wp,wp_address):
@@ -175,4 +177,4 @@ def compare_quick_status_string_map(quick_stat_log,string_map):
     for icmid in icmid_list:
         print(f"comparing quickstatus and string map {get_host_port_from_quickstat_icmid(quick_stat_log,icmid)} {get_host_port_from_stringmap_icmid(string_map, icmid)}")
 
-compare_quick_status_string_map(quick_stat_log,string_map)
+# compare_quick_status_string_map(quick_stat_log,string_map)
