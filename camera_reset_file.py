@@ -43,6 +43,7 @@ with open(args.out, 'w') as f:
     f.writelines(f"#!/bin/bash \n\n\n")
     for ielt in unique_dev_list:
         hostname,fh_port,address = ielt
+        f.writelines(f"echo host {hostname} port {fh_port} address {address} \n")
         f.writelines(f"mcu_reset --host {hostname} -p {fh_port} -w {address} \n")
 
 
