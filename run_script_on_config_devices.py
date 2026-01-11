@@ -40,7 +40,10 @@ unique_dev_list = list(set(device_list))
 # print(f"device list {unique_dev_list} {len(unique_dev_list)}")
 for idevice in unique_dev_list:
     print(f"{args.script} {idevice[0]} {idevice[1]} {idevice[2]}")
-    subprocess.run(f"{args.script} --host {idevice[0]} -p {idevice[1]} -w {idevice[2]}", shell=True)
+    if args.script in ["wp_power","wp_on","wp_off","wp_up","fh_status","comm_status","icm_status"]:
+        subprocess.run(f"{args.script} --host {idevice[0]} -p {idevice[1]}", shell=True)
+    else:
+        subprocess.run(f"{args.script} --host {idevice[0]} -p {idevice[1]} -w {idevice[2]}", shell=True)
 
 
 
